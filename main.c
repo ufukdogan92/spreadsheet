@@ -206,7 +206,7 @@ void sutunDuzenle(int *tablo){
 
                 printf("\tEski degeri =  %d\n\tDegistirmek istediginiz degeri giriniz: ",*(tablo+satir*10+harfIslem));
                 scanf("%d",&deger);
-                *(tablo+satir*10+harfIslem) = deger;
+                *(tablo+satir*10+gelenHarfInt) = deger;
 
 }
 int karsilastir(int satirSayisi,int sutunSayisi, int elemanSayisi){
